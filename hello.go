@@ -1,12 +1,10 @@
-// goファイルの実行 -> go run ファイルパス
-// goファイルをネイティブコードにbuild -> go build ファイル(hello.go)
-
 package main
 
-import (
-	"fmt"
-)
+import ("fmt")
 
-func main () {
-	fmt.Println("Hello, Go-lang!")
+func main() {
+	// 変数の宣言と代入を同時に行っている。　型の指定は不要
+	a,b,c := 100, 200, 300
+	fmt.Print("total:")
+	fmt.Println(a+b+c)
 }
