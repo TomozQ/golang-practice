@@ -1,4 +1,5 @@
 // goファイルの実行 -> go run ファイルパス
+// goファイルをネイティブコードにbuild -> go build ファイル(hello.go)
 
 package main
 
